@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Slab:wght@400;800&family=Roboto:ital,wght@1,700&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contain {
+    height: 19vh;
+    background-color: #35b335;
+    font-size: 2.7rem;
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec {
+    height: 75vh;
+    padding-left: 15%;
+    padding-right: 25%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary {
+    font-size: 2.2rem;
+    transform: translateY(5px);
+}
+
+#first {
+    display: inline-block;
+}
+
+.first input {
+    width: 60%;
+    height: 4vh;
+    margin: 15px auto;
+    margin-right: 24px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.first .submit {
+    width: 6%;
+    height: 4vh;
+}
+
+.btn {
+    background-color: rgb(64, 9, 9);
+    position: relative;
+    right: -560px;
+    bottom: 46px;
+    height: 34px;
+    width: 67px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.secondary {
+    font-size: 2.2rem;
+    transform: translateY(5px);
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 8px;
+}
+
+.part-1 {
+    border: 1px solid grey;
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-2 {
+    border: 1px solid grey;
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-3 {
+    border: 1px solid grey;
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn1 {
+	box-sizing: border-box;
+	height: 34px;
+	width: 62px;
+	background-color: #dcb4b4;
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.head2 {
+    height: 10vh;
+    background-color: black;
+}
+.foot {
+    height: 10vh;
+    background-color: black;
+}
